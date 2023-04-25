@@ -1,11 +1,10 @@
 from classes.ocr import Ocr
 from unittest import mock
-import tempfile
-import os
 
 def ocr():
   return Ocr()
 
+# Test the get_data method
 def test_generate_id():
   ocr = Ocr()
   file_name = "img/test.jpg"

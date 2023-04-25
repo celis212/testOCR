@@ -1,5 +1,4 @@
 from classes.ocr import Ocr
-import unit_test.cliente
 import os
 import re
 import sys
