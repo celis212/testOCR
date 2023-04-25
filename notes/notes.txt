@@ -1,0 +1,3 @@
+During OCR testing, we used regular expressions in combination with Python to extract specific data from a document. To do this, we first analyzed the document structure and identified the patterns and formats of the data we needed to extract. We then used regular expressions to match these patterns and extract the desired data.
+
+For example, in the case of the ship_to and bill_to variables, we observed that the data for each variable was located in a specific section of the document and followed a similar format. Using regular expressions, we were able to extract all the values at once, instead of extracting them individually. This approach helped us save time and improve efficiency during the data extraction process.
